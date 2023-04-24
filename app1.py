@@ -8,7 +8,7 @@ from pydub import AudioSegment
 
 import config
 
-# Initiating openai API key
+# Initiating openai API key, set up as an environment variable
 openai.api_key = config.api_key
 
 # List of all the conversation log between PGT and the user
