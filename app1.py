@@ -1,10 +1,12 @@
-import openai
+import os
+
 import gradio as gr
-from pydub import AudioSegment
-import config
+import openai
 from gtts import gTTS
 from playsound import playsound
-import os
+from pydub import AudioSegment
+
+import config
 
 # Initiating openai API key
 openai.api_key = config.api_key
